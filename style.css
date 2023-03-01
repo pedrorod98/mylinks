@@ -5,13 +5,13 @@
 
 body {
     background-color: black;
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 
-    
+
 }
 
 img {
-    border-radius: 20px;
+    border-radius: 320px;
     width: 320px;
     height: 320px;
 }
@@ -24,20 +24,20 @@ h1 {
 }
 
 p {
-    color: white    ;
+    color: white;
 }
 
 ul {
     margin-top: 35px;
 }
 
-li{
+li {
     margin-bottom: 18px;
     list-style: none;
 }
 
-a{
-    background-color: limegreen;
+a {
+    background-color: lightseagreen;
     color: white;
     padding: 15px;
     text-decoration: none;
@@ -45,12 +45,16 @@ a{
     border-radius: 5px;
 }
 
-footer{
+a:hover {
+    background-color: white;
+    color: lightseagreen;
+}
+
+footer {
     color: white;
 }
 
 .container {
-    
     width: 320px;
     text-align: center;
     margin-top: 41px;
